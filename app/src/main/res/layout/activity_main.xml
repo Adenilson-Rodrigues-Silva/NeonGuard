@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#050505"
@@ -36,7 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        app:cardBackgroundColor="#121212"
+        app:cardBackgroundColor="#221F1F"
         app:cardCornerRadius="24dp"
         app:cardElevation="15dp">
 
@@ -54,7 +55,7 @@
                 android:fontFamily="@font/orbitron_bold"
                 android:letterSpacing="0.5"
                 android:text="SISTEMA INATIVO"
-                android:textColor="#555555"
+                android:textColor="@color/black"
                 android:textSize="16sp" />
 
             <FrameLayout
@@ -64,16 +65,36 @@
 
                 <Button
                     android:id="@+id/btnActivate"
-                    android:layout_width="160dp"
-                    android:layout_height="160dp"
+                    android:layout_width="271dp"
+                    android:layout_height="140dp"
                     android:background="@drawable/neon_card_bg"
                     android:fontFamily="@font/orbitron_bold"
                     android:text="GO"
-                    android:textColor="#00FF00"
+                    android:textColor="@color/neon_green"
                     android:textSize="32sp"
                     android:textStyle="bold"
                     app:backgroundTint="@null" />
             </FrameLayout>
+
+            <TextView
+                android:id="@+id/txtSensibilidade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/orbitron_bold"
+                android:text="SENSIBILIDADE: 11.5"
+                android:textColor="#888888"
+                android:textSize="12sp" />
+
+            <SeekBar
+                android:id="@+id/seekBarSensibilidade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:max="25"
+                android:progress="11"
+                android:progressTint="@color/neon_purple"
+                android:thumbTint="@color/neon_green" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
