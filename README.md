@@ -1,25 +1,22 @@
-# 🛡️ NeonGuard - Anti-Theft Security System
+# 🛡️ NeonGuard - Cyberpunk Security System
 
-**NeonGuard** é um aplicativo de segurança inteligente para Android com estética Cyberpunk, projetado para proteger seu dispositivo contra furtos e movimentações não autorizadas através de sensores de precisão.
+O **NeonGuard** é um sistema de segurança inteligente para Android com estética futurista. Ele utiliza sensores de movimento para detectar intrusões e biometria para desativação segura.
 
-## 🚀 Status do Projeto: Booting Up...
-O projeto está em fase inicial de desenvolvimento, com foco na interface futurista e integração de sensores.
+## ⚡ Funcionalidades Atuais
+- **Monitoramento em Tempo Real:** Uso do acelerômetro para detectar deslocamentos.
+- **Sensibilidade Ajustável:** Calibragem dinâmica via interface (SeekBar).
+- **Segurança Biométrica:** Desativação protegida por impressão digital/rosto.
+- **Interface Neon:** UI customizada com temas Cyberpunk (Ciano, Magenta e Roxo).
+- **Alerta Multimodal:** Disparo de flash, vibração e alarme sonoro em volume máximo.
 
-## ✨ Funcionalidades Atuais
-- 🌌 **Splash Screen Futurista:** Experiência de entrada imersiva com animações neon.
-- 🎨 **Interface Cyberpunk:** Design focado em UX com paleta de cores High-Contrast (Cyan & Magenta).
-- 🔠 **Orbitron Typography:** Tipografia geométrica integrada para um visual de sistema de segurança.
-- 🛠️ **Arquitetura Base:** Estrutura Kotlin sólida pronta para integração de sensores.
+## 🛠️ Tecnologias
+- Kotlin & Android SDK
+- Biometric API
+- SensorManager
+- Material Design & Custom Drawables
 
-## 🛠️ Tecnologias Utilizadas
-- **Linguagem:** [Kotlin](https://kotlinlang.org/)
-- **UI Layout:** XML (Material Design Customizado)
-- **VCS:** Git & GitHub
-
-## 📡 Próximas Implementações (Roadmap)
-- [ ] Implementação do Sensor de Acelerômetro para detecção de movimento.
-- [ ] Sistema de alarme sonoro persistente.
-- [ ] Trava de segurança para impedir o fechamento do app durante o alerta.
-
----
-*Desenvolvido com foco em segurança e design imersivo.*
+## 🎮 Como Operar
+1. Ajuste a sensibilidade conforme o ambiente.
+2. Pressione **GO** para armar (você terá 5 segundos de delay).
+3. Em caso de movimento, o protocolo de intrusão será ativado.
+4. Use sua biometria para restaurar a segurança.
